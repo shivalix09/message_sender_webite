@@ -1,8 +1,13 @@
-function App() {
+import React from 'react'
+import Links from './Links/Links'
+
+
+const App = () => {
   return (
-    <>shivali j
-    </>
-  );
+    <div>
+      <Links />
+    </div>
+  )
 }
 
-export default App;
+export default App
